@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>header</title>
+    <link rel="stylesheet" href="first.css" >
+</head>
+<body>
+    <header>
+        <upperheader>
+            <slidingbar>
+                <div class="slidingbar">
+                    <marquee direction="left" width="100%" scrollamount="10" onmouseover="this.stop();" onmouseout="this.start();">
+                        <span class="header-promotion marquee-span">Biggest sale of the season. Look out for Hottest Deals and Get unbelievable discounts.</span>
+                        <span class="header-promotion marquee-span"> Buy Handbags From Wide Range of Collection Only At AJIO. Hurry Up Shop Now. Free Delivery.</span>
+                        <span class="header-promotion marquee-span ">Get Stylish Footwear at Max — Bundle & Save Big with Max! Buy 3 styles for ₹999 plus Free Shipping on all orders.</span>
+                    </marquee>
+                </div>
+            </slidingbar>
+        </upperheader>
+        <middleheader>
+            <logo>
+                <div class="logo">
+                    <div class="navlogo">
+                        <a href="login.html"><img src="images/mr brands logo.png" alt="mr brands"></a>
+                    </div>
+                </div> 
+            </logo>
+            <searchbar>
+                <div class="searchbar">
+                        <input type="text" id="search" style="width: 450px;" placeholder="Search..MR Brand's " >
+                        <button type="submit" id="search-button"><img src="images/search (2).png" height="30px"></button>
+                        
+                </div>
+            </searchbar>
+            <signIn>
+                <div class="sign-in">
+                    <button id="sign-in-button" style="padding: 10px 20px; font-size: 16px;">Sign In</button>
+                </div>
+            </signIn>
+            <wishlist>
+                <div class="wishlist"style="background-color:;"><img src="images/heart.png" height="25px"></div>
+            </wishlist>
+            <account>
+                <div class="account"style="background-color: ;"><img src="images/circle.png" height="25px"></div>
+            </account>
+            <settings>
+                <div class="account"style="background-color: ;"><img src="images/setting.png" height="25px"></div>
+
+            </settings>
+        </middleheader>
+        
+
+        <lowerheader id="lowerheader">
+            <categorylist>
+                <div class="categorylist">
+                    <div class="men" data-category="Saree">Saree</div>
+                    <div class="men" data-category="Kurtee">Kurtee</div>
+                    <div class="men" data-category="Crop Top">Crop Top</div>
+                    <div class="men" data-category="Party wear">Party wear</div>
+                    <div class="men" data-category="Western wear">Western wear</div>
+                    <div class="men" data-category="Lehenga">Lehenga</div>
+                    <div class="men" data-category="Sharara">Sharara</div>
+                    <div class="men" data-category="Trending">Trending</div>
+                </div>
+            </categorylist>
+        </lowerheader>
+        <div id="results" class="product-grid"></div>
+    </header>
+</body>
+</html>
