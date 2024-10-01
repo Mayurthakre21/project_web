@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+}
+
+.right-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+
+.login-box {
+    width: 80%;
+    max-width: 400px;
+    padding: 30px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.logo {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+    color: #333;
+}
+
+h2 {
+    text-align: center;
+    color: #1d1c1c;
+    font-size: 1rem;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 8px;
+    color: #1d1c1c;
+    font-weight: 600;
+}
+
+input[type="text"],
+input[type="password"] {
+    padding: 12px;
+    border-radius: 6px;
+    border: 1px solid #1d1c1c;
+    margin-bottom: 15px;
+    font-size: 0.2rem;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    border-color: #4CAF50;
+    outline: none;
+}
+
+.forgot-password {
+    font-size: 0.5rem;
+    color: #007BFF;
+    text-align: right;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}
+
+.sign-in-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.sign-in-btn:hover {
+    background-color: #45a049;
+}
+
+.or {
+    text-align: center;
+    margin: 20px 0;
+    color: #999;
+    font-size: 0.9rem;
+}
+
+.google-sign-in-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.google-sign-in-btn img {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.google-sign-in-btn:hover {
+    background-color: #f9f9f9;
+}
+
+.create-account {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 0.9rem;
+}
+
+.create-account a {
+    color: #007BFF;
+}
+
+.create-account a:hover {
+    text-decoration: underline;
+}
